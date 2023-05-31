@@ -1,0 +1,15 @@
+h1{color: black;background-color: azure;
+    font: 100;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-size-adjust: calc();
+    font-stretch: normal; 
+    font-weight: 300;
+    font-weight: 300;
+    text-decoration: underline;
+    border:solid;border: width 2px;
+     }
+     body{    border: radius 9px;
+        background-image:url('link address');
+        background-size:cover;
+        height: 100vh;}
