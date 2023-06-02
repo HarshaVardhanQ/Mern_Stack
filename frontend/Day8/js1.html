@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScrip</title>
+</head>
+<body>
+    <h1>This is an example of using JS in html file</h1>
+    <script>
+        var password=[],passwordlist="abcdefghijklmnopqrstuvwxyz"
+        for(var u=1;u<=8;u++){
+            var randomNumber=Math.floor(
+                Math.random()*passwordlist.length);
+            password.push(passwordlist.charAt(randomNumber))
+        }
+        var finalResult=password.join("")
+        console.log(finalResult)
+        var s=[12,87,{name:"Raju",}]
+    </script>
+</body>
+</html>
